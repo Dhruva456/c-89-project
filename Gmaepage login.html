@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Math quiz game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https:://maxcd.bootstrap.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <h4 id="player1_name"></h4>
+    <span id="player1_score"></span>
+    <br />
+    <h4 id="player2_name"></h4>
+    <span id="player2_score"></span>
+    <div class="container">
+      <centre>
+        <h2 style="color: black">The Math quiz game</h2>
+
+        <h3 id="playerquestion"></h3>
+        <br />
+        <h3 id="playeranswer"></h3>
+        <div id="output"></div>
+        <label>number 1</label>
+        <input type="number" id="number1_input" />
+        <br />
+        <br />
+        <label>number 2</label>
+
+        <input type="number" id="number2_input" />
+        <br />
+        <br />
+        <button class="btn btn-success" onclick="send()">Send</button>
+      </centre>
+    </div>
+  </body>
+  <script src="gamepage.js"></script>
+</html>

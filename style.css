@@ -1,0 +1,21 @@
+body {
+  text-align: center;
+  background-color: aqua;
+  color: black;
+}
+#loginbutton {
+  background-color: blueviolet;
+
+  width: 300px;
+}
+#output {
+  background: white;
+  border-radius: 10px;
+  border-top: 10px solid;
+  padding: 10px;
+  float: none;
+  text-align: left;
+}
+h4 {
+  display: inline-block;
+}
